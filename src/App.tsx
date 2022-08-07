@@ -1,10 +1,10 @@
-import * as React from 'react';
+import * as React from "react";
 
-import { Routes, Route, Navigate } from 'react-router-dom';
-import { Layout } from './componets/layout';
-import { ResponderDuvida } from './pages/respoder-duvida';
-import { AvaliarResposta } from './pages/avaliar-resposta';
-import { NovaDuvida } from './pages/nova-duvida';
+import { Routes, Route, Navigate } from "react-router-dom";
+import { Layout } from "./componets/layout";
+import { ResponderDuvida } from "./pages/respoder-duvida";
+import { AvaliarResposta } from "./pages/avaliar-resposta";
+import { NovaDuvida } from "./pages/nova-duvida";
 
 export default function App() {
   return (
