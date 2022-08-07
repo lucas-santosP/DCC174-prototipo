@@ -10,6 +10,7 @@ import {
   FiBluetooth,
 } from "react-icons/fi";
 import { Sidebar } from "./sidebar";
+import userImg from "../../public/user.png";
 
 type IProps = {
   children: React.ReactNode | string;
@@ -56,7 +57,7 @@ export const Layout: React.FC<IProps> = ({ children }) => {
             </button>
 
             <div className="w-[40px] h-[40px] pointer-events-none overflow-hidden bg-gray-400 rounded-full">
-              <img src="/user.png" alt="Usuário" className="w-full" />
+              <img src={userImg} alt="Usuário" className="w-full" />
             </div>
           </div>
 
