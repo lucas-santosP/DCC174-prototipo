@@ -1,20 +1,15 @@
-h1,
-p {
-  font-family: Lato;
-}
-
-input,
-select,
-textarea {
+#root input,
+#root select,
+#root textarea {
   padding: 0.35rem 0.5rem;
   border-radius: 4px;
   background-color: white;
   color: #333;
 }
 
-input:disabled,
-select:disabled,
-textarea:disabled {
+#root input:disabled,
+#root select:disabled,
+#root textarea:disabled {
   background-color: rgb(221, 221, 221);
   color: #333;
 }

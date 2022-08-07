@@ -10,7 +10,7 @@ import {
   FiBluetooth,
 } from "react-icons/fi";
 import { Sidebar } from "./sidebar";
-import userImg from "../../public/user.png";
+import userImg from "../assets/user.png";
 
 type IProps = {
   children: React.ReactNode | string;
